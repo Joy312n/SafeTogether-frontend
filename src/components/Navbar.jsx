@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <NavLink to="/" className="text-2xl font-bold text-white">
-              SafeSeas
+              SafeTogether
             </NavLink>
           </div>
           <div className="hidden md:block">

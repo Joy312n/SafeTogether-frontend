@@ -7,7 +7,7 @@ import Signup from './pages/Signup';
 import Login from './pages/Login';
 import ReportForm from './pages/ReportForm';
 import MapView from './pages/MapView';
-import SocialFeed from './pages/SocialFeed';
+// import SocialFeed from './pages/SocialFeed';
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/login" element={<Login />} />
           <Route path="/map-view" element={<MapView />} />
-          <Route path="/social-feed" element={<SocialFeed/>} />
+          {/* <Route path="/social-feed" element={<SocialFeed/>} /> */}
 
           {/* Protected Routes */}
           <Route element={<ProtectedRoute />}>

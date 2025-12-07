@@ -27,7 +27,7 @@ const Navbar = () => {
               <NavLink to="/" className="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</NavLink>
               <NavLink to="/submit-report" className="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Submit Report</NavLink>
               <NavLink to="/map-view" className="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Map View</NavLink>
-              <NavLink to="/social-feed" className="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Social Feed</NavLink>
+              {/* <NavLink to="/social-feed" className="text-gray-300 hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Social Feed</NavLink> */}
               {token ? (
                 <div className="flex items-center space-x-4">
                   <span className="text-white font-medium">Hi, {userName || 'User'}</span>

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // IMPORTANT: Replace with your actual backend URL
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://safetogether-backend.onrender.com';
 
 const api = axios.create({
   baseURL: API_URL,

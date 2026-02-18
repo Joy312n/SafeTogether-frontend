@@ -146,6 +146,7 @@ export default function Signup() {
         )}
 
         <p className="text-center text-sm">
+          otp sending not working due to free deployment try this credentials email= official@example.com password=123456
           Already have an account? <Link to="/login" className="font-medium text-blue-600 hover:underline">Login here</Link>
         </p>
       </div>
